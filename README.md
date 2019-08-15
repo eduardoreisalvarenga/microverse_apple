@@ -1,4 +1,4 @@
-# appleclone.io
+# Appleclone.io
 # Microverse Solo Curriculum
 
 This is my solution to Microverse's first solo project. It is an Apple page clone. It is created using HTML5 and CSS3.
