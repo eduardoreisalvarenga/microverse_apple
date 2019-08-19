@@ -171,17 +171,28 @@ footer {
 }
 
 /* Default color for links */
-.footer-link {
+a:link {
+  font-size: 12px;
+  text-decoration: none;
   color: #08c;
+}
+
+a:visited {
+  color: #08c;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* Container for my left items inside main footer */
 .footer-left-container {
+  
+  display: inline;
   position: relative;
-  top: 5px;
+  top: 8px;
   width: 480px;
   display: inline;
-  background: orange;
 }
 
 /* Selector for tmy left items inside main footer */
