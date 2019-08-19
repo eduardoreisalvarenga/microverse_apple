@@ -74,13 +74,18 @@ header {
 }
 
 /* Selector for the secondary options bellow my main container */
-.grid-other-topics {
+.flex-other-topics {
   width: 1442px;
   margin: 3px auto 0 auto;
   height: 200px;
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 2px;
+}
+
+.topic-flex {
+  flex: 1;
+  margin-right: 3px;
 }
 
 /* Selector for the container which contains the background images showing text over my main image  */
