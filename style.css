@@ -80,8 +80,6 @@ header {
   margin: 3px auto 0 auto;
   height: 200px;
   display: flex;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 2px;
 }
 
 .topic-flex {
@@ -137,11 +135,6 @@ header {
 /* Hover effect */
 .your-verse-border:hover {
   border-bottom: 1px solid white;
-}
-
-/* Hover effect for my secondary topics */
-.topic-grid:hover {
-  cursor: pointer;
 }
 
 /* My background images for the topics */
@@ -200,9 +193,8 @@ a:hover {
   display: inline;
 }
 
-/* Selector for tmy left items inside main footer */
+/* Selector for my right items inside main footer */
 .footer-right-container {
-  display: inline;
   float: right;
   position: relative;
   top: -40px;
