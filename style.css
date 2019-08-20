@@ -1,0 +1,209 @@
+/* Selector for the header. Header contains the navbar */
+header {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  position: relative;
+  top: 74px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  width: 68%;
+  height: 35px;
+}
+
+/* Selector for the grid container which contains my navbar Items */
+.flex-container {
+  text-align: center;
+  display: flex;
+}
+
+/* Selector for my grid items. Options inside my navbar */
+.flex-item {
+  flex: 1;
+  padding-top: 8px;
+  border-right: 1px solid #888;
+  vertical-align: middle;
+  height: 28px;
+}
+
+/* Selector for the apple logo fron font awesome */
+.fa-apple {
+  margin-top: -4px;
+  font-size: 22px;
+}
+
+/* Hover efect for all my grid items */
+.flex-item:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* selector for the input field inside my navbar */
+.flex-item-search input {
+  padding: 0 10px;
+  color: black;
+  width: 100px;
+  border-radius: 8px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  border: 1px solid #888;
+  margin: 0 8px;
+  top: 5px;
+  position: relative;
+}
+
+/* Selector for thesearch icon inside input */
+#image-input {
+  background-image: url('images/svg_search.svg');
+  background-size: 14px;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+
+/* Selector for my main container */
+.container {
+  position: relative;
+  background: url('images/main_image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin: 0 auto;
+  width: 56%;
+  height: 620px;
+  background-color: #eee;
+}
+
+/* Selector for the secondary options bellow my main container */
+.flex-other-topics {
+  height: 200px;
+  width: 56%;
+  margin: 3px auto 0 auto;
+  display: flex;
+}
+
+.topic-flex {
+  flex: 1;
+  margin-right: 3px;
+}
+
+/* Selector for the container which contains the background images showing text over my main image  */
+.text-container {
+  width: 56%;
+  height: 288px;
+  margin: 164px auto 0 auto;
+}
+
+/* Hover effect for the secondary options */
+.text-container:hover {
+  cursor: pointer;
+}
+
+/* Selector for the image which represents my h1 */
+.main-text-header {
+  height: 98px;
+  width: auto;
+  background: url('images/img_page_header.png');
+  background-size: cover;
+}
+
+/* Images representing secondary text */
+.secondary-text {
+  height: 73px;
+  width: 100%;
+  background: url('images/img_secondary_text.png');
+  background-size: cover;
+}
+
+/* Selector for the watch your verse image */
+.your-verse {
+  margin: 26px auto 0 auto;
+  width: auto;
+  height: 30px;
+  background: url('images/img_your_verse.png');
+}
+
+/* Hover effect */
+.your-verse-border:hover {
+  border-bottom: 1px solid white;
+}
+
+/* My background images for the topics */
+div.image_1 img {
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+div.image_2 img {
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+div.image_3 img {
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+div.image_4 img {
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+/* Main Footer */
+footer {
+  position: relative;
+  padding-top: 18px;
+  width: 45%;
+  height: 70px;
+  margin: 0 auto;
+}
+
+/* Default styke for the text inside my footer */
+.footer-text {
+  display: block;
+  font-size: 12px;
+}
+
+/* Default color for links */
+a:link {
+  font-size: 12px;
+  text-decoration: none;
+  color: #08c;
+}
+
+a:visited {
+  color: #08c;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Container for my left items inside main footer */
+.footer-left-container {
+  display: inline;
+  position: relative;
+  top: 8px;
+  width: 480px;
+}
+
+/* Selector for my right items inside main footer */
+.footer-right-container {
+  float: right;
+  position: relative;
+  top: -40px;
+}
+
+/* Selecor for png logo. USA logo */
+.usa-logo {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+/* Hover effect */
+.usa-logo:hover {
+  cursor: pointer;
+}
