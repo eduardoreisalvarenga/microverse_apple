@@ -5,9 +5,10 @@ header {
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
   position: relative;
   top: 74px;
-  left: 230px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 4px;
-  width: 982px;
+  width: 68%;
   height: 35px;
 }
 
@@ -15,7 +16,6 @@ header {
 .flex-container {
   text-align: center;
   display: flex;
-  grid-template-columns: repeat(9, 1fr);
 }
 
 /* Selector for my grid items. Options inside my navbar */
@@ -52,13 +52,12 @@ header {
   position: relative;
 }
 
-/* Selector for the search icon from font awesome */
-.fa-search {
-  z-index: 100;
-  color: white;
-  position: absolute;
-  top: 8px;
-  left: 855px;
+/* Selector for thesearch icon inside input */
+#image-input {
+  background-image: url('images/svg_search.svg');
+  background-size: 14px;
+  background-repeat: no-repeat;
+  z-index: 10;  
 }
 
 /* Selector for my main container */
@@ -69,16 +68,16 @@ header {
   background-repeat: no-repeat;
   background-position: bottom;
   margin: 0 auto;
-  width: 1442px;
+  width: 56%;
   height: 620px;
   background-color: #eee;
 }
 
 /* Selector for the secondary options bellow my main container */
 .flex-other-topics {
-  width: 1442px;
-  margin: 3px auto 0 auto;
   height: 200px;
+  width: 56%;
+  margin: 3px auto 0 auto;
   display: flex;
 }
 
@@ -89,7 +88,7 @@ header {
 
 /* Selector for the container which contains the background images showing text over my main image  */
 .text-container {
-  width: 982px;
+  width: 56%;
   height: 288px;
   margin: 164px auto 0 auto;
 }
@@ -102,7 +101,7 @@ header {
 /* Selector for the image which represents my h1 */
 .main-text-header {
   height: 98px;
-  width: 100%;
+  width: auto;
   background: url('images/img_page_header.png');
   background-size: cover;
 }
@@ -118,18 +117,9 @@ header {
 /* Selector for the watch your verse image */
 .your-verse {
   margin: 26px auto 0 auto;
-  width: 100%;
+  width: auto;
   height: 30px;
   background: url('images/img_your_verse.png');
-}
-
-/* Selector for the div that gives me the hover effect */
-.your-verse-border {
-  position: absolute;
-  top: 398px;
-  width: 500px;
-  left: 450px;
-  height: 28px;
 }
 
 /* Hover effect */
@@ -138,27 +128,35 @@ header {
 }
 
 /* My background images for the topics */
-.image_1 {
-  background: url('images/img_1.jpg');
+div.image_1 img {
+  background-size: cover;
+  width: 100%;
+  height: auto;
+
+}
+div.image_2 img {
+  background-size: cover;
+  width: 100%;
+  height: auto;
 }
 
-.image_2 {
-  background: url('images/img_2.jpg');
+div.image_3 img {
+  background-size: cover;
+  width: 100%;
+  height: auto;
 }
 
-.image_3 {
-  background: url('images/img_3.jpg');
-}
-
-.image_4 {
-  background: url('images/img_4.jpg');
+div.image_4 img {
+  background-size: cover;
+  width: 100%;
+  height: auto;
 }
 
 /* Main Footer */
 footer {
   position: relative;
   padding-top: 18px;
-  width: 981px;
+  width: 45%;
   height: 70px;
   margin: 0 auto;
 }
