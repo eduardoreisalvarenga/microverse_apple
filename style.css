@@ -57,7 +57,7 @@ header {
   background-image: url('images/svg_search.svg');
   background-size: 14px;
   background-repeat: no-repeat;
-  z-index: 10;  
+  z-index: 10;
 }
 
 /* Selector for my main container */
@@ -132,8 +132,8 @@ div.image_1 img {
   background-size: cover;
   width: 100%;
   height: auto;
-
 }
+
 div.image_2 img {
   background-size: cover;
   width: 100%;
